@@ -434,8 +434,8 @@ function runGame() {
 }
 
 window.onload = async () => {
-  canvas = document.getElementById("myCanvas");
-  ctx = canvas.getContext("2d");
+  canvas = document.getElementById('myCanvas');
+  ctx = canvas.getContext('2d');
 
   heroImg = await loadTexture("spaceArt/png/player.png");
   heroImgLeft = await loadTexture("spaceArt/png/playerLeft.png");
